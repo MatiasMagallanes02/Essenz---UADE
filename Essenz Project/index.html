@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Essenz</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <nav class="nav">
+    <ul class="nav-left">
+      <li><a href="catalogo.html">FRAGANCIAS</a></li>
+      <li><a href="contacto.html">CONTACTO</a></li>
+    </ul>
+
+    <div class="logo-container">
+      <a href ="index.html"><img src="images/Logo.png" alt="Logo" class="logo" /></a>
+    </div>
+
+    <div class="logo-carrito">
+      <a href="carrito.html"><img src="images/carrito.png" alt="Carrito" class="carrito-icon"></a>
+    </div>
+  </nav>
+</header>
+
+<section class="carrusel-videos" id="catalogo">
+  <div class="video-carrusel" id="carrusel">
+    <div class="slide">
+      <video src="videos/Jean Paul Gaultier Le Beau Le Parfum.mp4" playsinline muted></video>
+      <div class="text-box">
+        <h2>NOVEDAD</h2>
+        <p>Nuevos perfumes de Jean Paul Gaultier<br> Le Beau EDT y Le Beau Le Parfum</p>
+        <button>VER MAS</button>
+      </div>
+    </div>
+    <div class="slide">
+      <video src="videos/Sauvage Elixir.mp4" playsinline muted></video>
+      <div class="text-box">
+        <h2>SAUVAGE</h2>
+        <p>Una fragancia masculina fresca y poderosa<br> Descubre tu estilo y dejate fluir</p>
+        <button>DESCUBRIR</button>
+      </div>
+    </div>
+    <div class="slide">
+      <video src="videos/Tom Ford.mp4" playsinline muted></video>
+      <div class="text-box">
+        <h2>TOM FORD</h2>
+        <p>Un perfume sensual y audaz<br> Lleva contigo la elegancia vayas donde vayas</p>
+        <button>VER MAS</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="indicators" id="indicators">
+    <span class="dot active" data-index="0"></span>
+    <span class="dot" data-index="1"></span>
+    <span class="dot" data-index="2"></span>
+  </div>
+</section>
+
+<section class="catalogo-container">
+
+    <div class="catalogo-carrusel">
+      <button class="flecha izq">&#10094;</button>
+
+      <div class="perfume-carrusel">
+        <div class="perfume">
+          <img src="images/Perfumes/Le Beau Le Parfum.png" alt="lebeau">
+          <div class="info-perfume">
+            <p>Fragancia floral y fresca para todo el día.</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+
+        <div class="perfume">
+          <img src="images/Perfumes/JPG Le Male Elixir.png" alt="lemale">
+          <div class="info-perfume">
+            <p>Elegancia atemporal con notas de ámbar.</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+
+        <div class="perfume">
+          <img src="images/Perfumes/JPG Scandal.png" alt="scandal">
+          <div class="info-perfume">
+            <p>Toques cítricos y madera suave.</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+
+        <div class="perfume">
+          <img src="images/Perfumes/AquaDiGio Parfum.png" alt="aquadigio">
+          <div class="info-perfume">
+            <p>Perfume con notas acuáticas y frescas.</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+
+        <div class="perfume">
+          <img src="images/Perfumes/Paco Rabanne Invictus Elixir.png" alt="invictus">
+          <div class="info-perfume">
+            <p>Fragancia con notas suaves, perfecta para el verano.</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+
+        <div class="perfume">
+          <img src="images/Perfumes/Paco Rabanne One Million.png" alt="onemillion">
+          <div class="info-perfume">
+            <p>Estilo y elegancia donde quieras que vayas.</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+
+        <div class="perfume">
+          <img src="images/Perfumes/StrongerWY Intensely.png" alt="strongerwy">
+          <div class="info-perfume">
+            <p>Un perfume dulce y con toques de vainilla.</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+
+        <div class="perfume">
+          <img src="images/Perfumes/Tom Ford Fougere Dargent.png" alt="tomford">
+          <div class="info-perfume">
+            <p>Fragancia amaderada, elegancia explosiva con toques de ambar.</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+
+        <div class="perfume">
+          <img src="images/Perfumes/Tom Ford Ombre Leather.png" alt="ombreleather">
+          <div class="info-perfume">
+            <p>Un cuero azafranado, ideal para salidas nocturnas y citas romanticas.</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+      </div>
+
+      <button class="flecha der">&#10095;</button>
+    </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-column">
+      <h4>LLENA EL FORMULARIO PARA QUE NOS CONTACTEMOS CON USTED</h4>
+      <form>
+        <input type="text" placeholder="Nombre*" required>
+        <input type="email" placeholder="Email*" required>
+        <label>
+          <input type="checkbox" required>
+          Acepto la política de privacidad disponible en 
+          <a href="#">Condiciones generales</a> *
+        </label>
+        <button type="submit">SUSCRIBIRSE</button>
+      </form>
+    </div>
+
+    <div class="footer-column">
+      <h4>ESSENZ</h4>
+      <p>ESSENZ@GMAIL.COM</p>
+      <p>LUNES A SÁBADO DE 10H A 8H</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>AYUDA</h4>
+      <ul>
+        <li><a href="#">ACCESIBILIDAD</a></li>
+        <li><a href="#">CONDICIONES DE USO</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>ACERCA DE</h4>
+      <ul>
+        <li><a href="#">ACERCA DE ESSENZ</a></li>
+        <li><a href="#">POLÍTICA DE PRIVACIDAD</a></li>
+        <li><a href="#">TRABAJA CON NOSOTROS</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="social">
+      <span>SIGANOS</span>
+      <a href="#"><img src="images/facebooklogo.png" alt="X"></a>
+      <a href="#"><img src="images/instagramlogo.png" alt="Facebook"></a>
+      <a href="#"><img src="images/twitterlogo.png" alt="Instagram"></a>
+    </div>
+    <div>
+      <p>Essenz 2025</p>
+    </div>
+  </div>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>

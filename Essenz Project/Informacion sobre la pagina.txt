@@ -1,0 +1,44 @@
+Proyecto Grupal de un Sitio Web - ESSENZ
+Matias Magallanes - Alessandro Ferroni
+
+1) Presentación del Proyecto
+
+a) Síntesis del proyecto:
+“Essenz” es un sitio web dedicado a la venta o promoción de perfumes. El sitio está estructurado por familias olfativas (dulces, florales, frutales, amaderados, orientales), lo que permite al usuario explorar opciones según sus gustos.
+
+b) Actividad principal de la empresa:
+Comercialización y recomendación de perfumes categorizados según sus notas aromáticas principales.
+
+c) Objetivos del sitio web:
+
+Mostrar una colección de perfumes clasificados por tipo.
+
+Informar al usuario sobre las características de cada fragancia.
+
+Brindar una experiencia estética agradable y clara.
+
+d) Justificación de la elección de tipografía y paleta de colores:
+Se eligieron tipografías limpias y elegantes (Oswald) que reflejan la sofisticación del producto (perfumes). La paleta de colores suave y sobria (blancos, negros, en esa escala) transmite elegancia, lujo y minimalismo, alineada con la imagen de marca.
+
+e) Público objetivo:
+
+Edad: 18 a 50 años
+
+Sexo: todos los géneros
+
+Intereses: cuidado personal, moda, perfumes
+
+Nacionalidad: internacional
+
+Nivel adquisitivo: medio a alto
+
+¿Por qué elegimos este logo?
+
+Elegimos este logo porque representa muy bien lo que queremos transmitir con la marca: 
+algo simple, elegante y moderno. 
+La tipografía es fina y alargada, lo que le da un toque sofisticado, como los perfumes que ofrecemos. El fondo negro con letras blancas ayuda a que se vea más limpio y llamativo. 
+Además, las líneas que acompañan la palabra "Perfume" hacen que todo se vea más equilibrado y ordenado. 
+Queríamos que el logo sea fácil de recordar y que transmita una sensación de calidad y estilo.
+
+Palabras clave:
+Perfumes, aromas, dulces, florales, frutales, sofisticación, frescura, elegancia.
